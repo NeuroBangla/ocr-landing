@@ -29,5 +29,5 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./site
+        publish_dir: ./_site
         allow_empty_commit: true
