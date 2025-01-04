@@ -37,7 +37,7 @@ export default {
         {
           title: {
             className: 'feature6-title-text',
-            children: '服务指标',
+            children: 'Insight',
           },
           className: 'feature6-item',
           name: 'block0',
@@ -51,15 +51,15 @@ export default {
                 className: 'feature6-number',
                 unit: {
                   className: 'feature6-unit',
-                  children: '万',
+                  children: 'Wh',
                 },
                 toText: true,
-                children: '116',
+                children: '0.4167',
               },
               children: {
 
                 className: 'feature6-text',
-                children: '模型数据',
+                children: 'Per page',
               },
             },
             {
@@ -71,14 +71,14 @@ export default {
                 className: 'feature6-number',
                 unit: {
                   className: 'feature6-unit',
-                  children: '亿',
+                  children: 'GiB',
                 },
                 toText: true,
-                children: '1.17',
+                children: '12',
               },
               children: {
                 className: 'feature6-text',
-                children: '模型迭代数量',
+                children: 'VRAM usage',
               },
             },
             {
@@ -90,82 +90,14 @@ export default {
                 className: 'feature6-number',
                 unit: {
                   className: 'feature6-unit',
-                  children: '亿',
+                  children: 'USD',
                 },
                 toText: true,
-                children: '2.10',
+                children: '0.52',
               },
               children: {
                 className: 'feature6-text',
-                children: '训练样本数量',
-              },
-            },
-          ],
-        },
-        {
-          title: {
-            className: 'feature6-title-text',
-            children: '服务指标',
-          },
-          className: 'feature6-item',
-          name: 'block1',
-          children: [
-            {
-              md: 8,
-              xs: 24,
-              name: 'child0',
-              className: 'feature6-number-wrapper',
-              number: {
-                className: 'feature6-number',
-                unit: {
-                  className: 'feature6-unit',
-                  children: '万',
-                },
-                toText: true,
-                children: '116',
-              },
-              children: {
-
-                className: 'feature6-text',
-                children: '模型数据',
-              },
-            },
-            {
-              md: 8,
-              xs: 24,
-              name: 'child1',
-              className: 'feature6-number-wrapper',
-              number: {
-                className: 'feature6-number',
-                unit: {
-                  className: 'feature6-unit',
-                  children: '亿',
-                },
-                toText: true,
-                children: '1.17',
-              },
-              children: {
-                className: 'feature6-text',
-                children: '模型迭代数量',
-              },
-            },
-            {
-              md: 8,
-              xs: 24,
-              name: 'child2',
-              className: 'feature6-number-wrapper',
-              number: {
-                className: 'feature6-number',
-                unit: {
-                  className: 'feature6-unit',
-                  children: '亿',
-                },
-                toText: true,
-                children: '2.10',
-              },
-              children: {
-                className: 'feature6-text',
-                children: '训练样本数量',
+                children: 'Per 1000 pages',
               },
             },
           ],

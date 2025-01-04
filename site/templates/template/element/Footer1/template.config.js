@@ -89,34 +89,34 @@ export default {
               {
                 href: '#',
                 name: 'link1',
-                children: '联系我们',
+                children: 'Contact Us',
               },
             ],
           },
         },
-        {
-          name: 'block3',
-          xs: 24,
-          md: 6,
-          className: 'block',
-          title: {
-            children: '资源',
-          },
-          childWrapper: {
-            children: [
-              {
-                href: '#',
-                name: 'link0',
-                children: 'Ant Design',
-              },
-              {
-                href: '#',
-                name: 'link1',
-                children: 'Ant Motion',
-              },
-            ],
-          },
-        },
+        // {
+        //   name: 'block3',
+        //   xs: 24,
+        //   md: 6,
+        //   className: 'block',
+        //   title: {
+        //     children: '资源',
+        //   },
+        //   childWrapper: {
+        //     children: [
+        //       {
+        //         href: '#',
+        //         name: 'link0',
+        //         children: 'Ant Design',
+        //       },
+        //       {
+        //         href: '#',
+        //         name: 'link1',
+        //         children: 'Ant Motion',
+        //       },
+        //     ],
+        //   },
+        // },
       ],
     },
     copyrightWrapper: {

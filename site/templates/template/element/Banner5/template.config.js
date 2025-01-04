@@ -19,18 +19,18 @@ export default {
       children: [
         {
           name: 'title',
-          children: '产品名',
+          children: 'Neuro Bangla OCR',
           className: 'banner5-title',
         },
         {
           name: 'explain',
           className: 'banner5-explain',
-          children: '产品标语介绍',
+          children: 'Self hosted OCR for enterprise',
         },
         {
           name: 'content',
           className: 'banner5-content',
-          children: '产品的详细说明，如是什么东西之类的文字',
+          children: 'In a world where giants harvest your data, we stand for your privacy.',
         },
         {
           name: 'button',
@@ -39,7 +39,7 @@ export default {
             href: '#',
             className: 'banner5-button',
             type: 'primary',
-            children: '开始使用',
+            children: 'Contact Us',
           },
         },
       ],

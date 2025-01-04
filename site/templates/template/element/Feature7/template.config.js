@@ -23,12 +23,12 @@ export default {
         {
           name: 'title',
           className: 'feature7-title-h1',
-          children: '图像在线服务',
+          children: 'Main Features',
         },
         {
           name: 'content',
           className: 'feature7-title-content',
-          children: '你可以直接快速接入图像能力',
+          children: 'Neuro Bangla OCR is a self-hosted OCR solution that offers a range of benefits for businesses.',
         },
       ],
     },
@@ -52,12 +52,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'Data Sovereignty',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'Neuro Bangla OCR ensures enterprise-grade AI with complete control over your data.',
               },
             ],
           },
@@ -78,12 +78,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'Fast Processing',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'Processes documents quickly without compromising quality.',
               },
             ],
           },
@@ -104,12 +104,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'Cost Efficiency',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'Reduces reliance on expensive cloud services for significant cost savings.',
               },
             ],
           },
@@ -130,12 +130,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'Energy Savings',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'Operates sustainably, costing just 45 cents per 1,000 pages.',
               },
             ],
           },
@@ -156,12 +156,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'Scalable Solution',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'Designed to grow seamlessly with businesses of all sizes.',
               },
             ],
           },
@@ -182,12 +182,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'Privacy Focus',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'Dedicated to protecting user privacy against data harvesting.',
               },
             ],
           },
@@ -208,12 +208,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'Demo Availability',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'A ready-to-deploy demo highlights its practical benefits.',
               },
             ],
           },
@@ -234,12 +234,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: '身份证',
+                children: 'AI Value',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+                children: 'Combines efficiency, security, and innovation in enterprise AI solutions.',
               },
             ],
           },

@@ -17,39 +17,7 @@ export default {
           },
           Menu: {
             children: [
-              {
-                name: 'item1',
-                className: 'header3-item',
-                children: {
-                  href: '#',
-                  children: [{ children: '<p>订订群</p>', name: 'text' }],
-                },
-                subItem: [
-                  {
-                    className: 'item-sub',
-                    children: {
-                      className: 'item-sub-item jzj8295azrs-editor_css',
-                      children: [
-                        {
-                          name: 'image0',
-                          className: 'item-image jzj81c9wabh-editor_css',
-                          children:
-                            'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*4_S6ToPfj-QAAAAAAAAAAABkARQnAQ',
-                        },
-                      ],
-                    },
-                    name: 'sub~jzj8hceysgj',
-                  },
-                ],
-              },
-              {
-                name: 'item2',
-                className: 'header3-item',
-                children: {
-                  href: '#',
-                  children: [{ children: '<p>帮助中心</p>', name: 'text' }],
-                },
-              },
+              
             ],
           },
           logo: {
@@ -191,7 +159,7 @@ export default {
                   children: [
                     {
                       name: 'content0',
-                      children: '<p>蚂蚁金服计算机视觉平台</p>',
+                      children: '<a href="https://github.com/NeuroBangla/" target="_blank">Neuro Bangla</a>',
                     },
                   ],
                 },
@@ -201,7 +169,7 @@ export default {
                 xs: 24,
                 md: 8,
                 className: 'block',
-                title: { children: '<p>联系我们</p>' },
+                title: { children: '<p>Contact Us</p>' },
                 childWrapper: {
                   children: [
                     {
@@ -213,10 +181,10 @@ export default {
                     {
                       href: '#',
                       name: 'link0',
-                      children: '<p>图鹰对接答疑钉钉群</p>',
+                      children: '<a href="https://www.linkedin.com/company/neuro-bangla/" target="_blank">Explore our LinkedIn page</a>',
                       className: 'jzl0u1bko6-editor_css',
                     },
-                    { href: '#', name: 'link1', children: '联系我们' },
+                    { href: '#', name: 'link1', children: 'Contact Us' },
                   ],
                 },
               },
@@ -225,11 +193,11 @@ export default {
                 xs: 24,
                 md: 8,
                 className: 'block',
-                title: { children: '资源' },
+                title: { children: 'GitHub' },
                 childWrapper: {
                   children: [
-                    { href: '#', name: 'link0', children: 'Ant Design' },
-                    { href: '#', name: 'link1', children: 'Ant Motion' },
+                    { href: 'https://github.com/maifeeulasad/', target: '_blank', name: 'link0', children: 'Maifee Ul Asad' },
+                    { href: 'https://github.com/NeuroBangla/', target: '_blank', name: 'link1', children: 'Neuro Bangla' },
                   ],
                 },
               },
@@ -237,7 +205,7 @@ export default {
           },
           copyright: {
             children:
-              '<span><a href="http://abc.alipay.com">隐私权政策</a>&nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; <a href="http://abc.alipay.com">权益保障承诺书</a>&nbsp; &nbsp; &nbsp;&nbsp;ICP证:浙B2-20100257&nbsp; &nbsp; &nbsp;&nbsp;Copyright © 2019 蚂蚁金融服务集团<br></span>',
+              `<span>Copyright © ${new Date().getFullYear()} Maifee Ul Asad<br></span>`,
           },
         },
       },
