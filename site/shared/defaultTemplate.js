@@ -169,7 +169,7 @@ export default {
                 xs: 24,
                 md: 8,
                 className: 'block',
-                title: { children: '<a href="mailto:maifeeulasad@gmail.com" target="_blank">Contact Us</a>' },
+                title: { children: '<p>Contact Us</p>' },
                 childWrapper: {
                   children: [
                     {
