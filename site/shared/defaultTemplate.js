@@ -5,7 +5,6 @@ export default {
       'Banner5_0',
       'Feature6_0',
       'Feature7_0',
-      // 'Feature0_0',
       'Feature8_0',
       'Footer1_0',
     ],
