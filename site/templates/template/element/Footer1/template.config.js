@@ -82,14 +82,16 @@ export default {
           childWrapper: {
             children: [
               {
-                href: '#',
                 name: 'link0',
                 children: 'FAQ',
+                href:"mailto:maifeeulasad@gmail.com",
+                target:"_blank"
               },
               {
-                href: '#',
                 name: 'link1',
                 children: 'Contact Us',
+                href:"mailto:maifeeulasad@gmail.com",
+                target:"_blank"
               },
             ],
           },

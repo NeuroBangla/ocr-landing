@@ -23,12 +23,12 @@ export default {
         {
           name: 'title',
           className: 'feature8-title-h1',
-          children: '使用流程',
+          children: 'How to order',
         },
         {
           name: 'content',
           className: 'feature8-title-content',
-          children: '流程简单清晰，快速响应需求',
+          children: 'We deliver the system on your premise within 2 weeks',
         },
       ],
     },
@@ -39,9 +39,9 @@ export default {
           name: 'button',
           className: 'feature8-button',
           children: {
-            href: '#',
-            children: '立即体验',
-          },
+            href: 'mailto:maifeeulasad@gmail.com',
+            children: 'Book a meeting now',
+          },          
         },
       ],
     },
@@ -66,7 +66,7 @@ export default {
             gutter: 120,
             title: {
               className: 'feature8-carousel-title-block',
-              children: '平台自主训练流程',
+              children: 'Process',
             },
             children: [
               {
@@ -89,12 +89,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: '需求沟通',
+                      children: 'Book a meeting',
                     },
                     {
                       name: 'content',
                       className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩',
+                      children: 'This is where we demo, share our thoughts, listen to your feedback and we both try to understand the limitations and possibilities of the project.',
                     },
                   ],
                 },
@@ -119,12 +119,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: '需求沟通',
+                      children: 'Audit',
                     },
                     {
                       name: 'content',
                       className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                      children: 'We audit your infrastructure',
                     },
                   ],
                 },
@@ -149,12 +149,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: '需求沟通',
+                      children: 'Test',
                     },
                     {
                       name: 'content',
                       className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                      children: 'You test the system and get satisfied, this is done in a private cloud environment',
                     },
                   ],
                 },
@@ -179,32 +179,21 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: '需求沟通',
+                      children: 'Payment',
                     },
                     {
                       name: 'content',
                       className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                      children: 'You pay the invoice and we deliver the system on your premise within 2 weeks',
                     },
                   ],
                 },
               },
-            ],
-          },
-          {
-            name: 'block1',
-            className: 'feature8-block-row',
-            gutter: 120,
-            title: {
-              children: '平台自主训练流程',
-              className: 'feature8-carousel-title-block',
-            },
-            children: [
               {
                 className: 'feature8-block-col',
-                md: 6,
+                md: 24,
                 xs: 24,
-                name: 'child0',
+                name: 'child4',
                 arrow: {
                   className: 'feature8-block-arrow',
                   children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
@@ -220,102 +209,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: '需求沟通',
+                      children: 'Support',
                     },
                     {
                       name: 'content',
                       className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩',
-                    },
-                  ],
-                },
-              },
-              {
-                className: 'feature8-block-col',
-                md: 6,
-                xs: 24,
-                name: 'child1',
-                arrow: {
-                  className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-                },
-                children: {
-                  className: 'feature8-block-child',
-                  children: [
-                    {
-                      name: 'image',
-                      className: 'feature8-block-image',
-                      children: 'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                    },
-                    {
-                      name: 'title',
-                      className: 'feature8-block-title',
-                      children: '需求沟通',
-                    },
-                    {
-                      name: 'content',
-                      className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
-                    },
-                  ],
-                },
-              },
-              {
-                className: 'feature8-block-col',
-                md: 6,
-                xs: 24,
-                name: 'child2',
-                arrow: {
-                  className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-                },
-                children: {
-                  className: 'feature8-block-child',
-                  children: [
-                    {
-                      name: 'image',
-                      className: 'feature8-block-image',
-                      children: 'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                    },
-                    {
-                      name: 'title',
-                      className: 'feature8-block-title',
-                      children: '需求沟通',
-                    },
-                    {
-                      name: 'content',
-                      className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
-                    },
-                  ],
-                },
-              },
-              {
-                className: 'feature8-block-col',
-                md: 6,
-                xs: 24,
-                name: 'child3',
-                arrow: {
-                  className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
-                },
-                children: {
-                  className: 'feature8-block-child',
-                  children: [
-                    {
-                      name: 'image',
-                      className: 'feature8-block-image',
-                      children: 'https://gw.alipayobjects.com/zos/basement_prod/d8933673-1463-438a-ac43-1a8f193ebf34.svg',
-                    },
-                    {
-                      name: 'title',
-                      className: 'feature8-block-title',
-                      children: '需求沟通',
-                    },
-                    {
-                      name: 'content',
-                      className: 'feature8-block-content',
-                      children: '沟通业务需求，对接人：诚凡、芸彩沟通业务需求，对接人：诚凡、芸彩',
+                      children: '<center>We provide LTS (at least 4 years), in form of security update and periodical new features</center>',
                     },
                   ],
                 },

@@ -169,7 +169,7 @@ export default {
                 xs: 24,
                 md: 8,
                 className: 'block',
-                title: { children: '<p>Contact Us</p>' },
+                title: { children: '<a href="mailto:maifeeulasad@gmail.com" target="_blank">Contact Us</a>' },
                 childWrapper: {
                   children: [
                     {
@@ -184,7 +184,7 @@ export default {
                       children: '<a href="https://www.linkedin.com/company/neuro-bangla/" target="_blank">Explore our LinkedIn page</a>',
                       className: 'jzl0u1bko6-editor_css',
                     },
-                    { href: '#', name: 'link1', children: 'Contact Us' },
+                    {  href:"mailto:maifeeulasad@gmail.com", target:"_blank", name: 'link1', children: 'Contact Us' },
                   ],
                 },
               },

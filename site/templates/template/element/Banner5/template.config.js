@@ -36,10 +36,11 @@ export default {
           name: 'button',
           className: 'banner5-button-wrapper',
           children: {
-            href: '#',
             className: 'banner5-button',
             type: 'primary',
             children: 'Contact Us',
+            href:"mailto:maifeeulasad@gmail.com",
+            target:"_blank"
           },
         },
       ],
