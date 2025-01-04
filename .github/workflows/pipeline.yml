@@ -23,13 +23,11 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: 'Installing deps'    
       run: yarn
-#    - name: 'Test'
-#      run: yarn test
     - name: 'Build'
-      run: yarn build #--if-present
+      run: yarn build
     - name: 'Deploy'
       uses: peaceiris/actions-gh-pages@v4
       with:
         deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        publish_dir: ./build
+        publish_dir: ./site
         allow_empty_commit: true
