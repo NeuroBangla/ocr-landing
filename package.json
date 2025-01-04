@@ -62,7 +62,6 @@
     "file-saver": "^2.0.0",
     "jszip": "^3.1.5",
     "medium-editor": "^5.23.3",
-    "pre-commit": "1.x",
     "prop-types": "^15.6.1",
     "react": "^16.6.0",
     "react-color": "^2.13.8",
