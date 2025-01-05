@@ -266,7 +266,6 @@ class Layout extends React.Component {
           {children}
         </div>
       ),
-      !this.isEdit && <BottomBar key="bar" />,
     ];
   }
 }
