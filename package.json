@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "title": "NeuroBangla OCR Landing",
   "description": "NeuroBangla OCR Landing Page",
-  "homepage": "https://neurobangla.github.io/ocr-landing/",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "https://github.com/NeuroBangla/ocr-landing"
