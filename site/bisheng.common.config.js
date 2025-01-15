@@ -94,13 +94,13 @@ function alertBabelConfig(rules) {
 module.exports = {
   filePathMapper(filePath) {
     if (filePath === '/index.html') {
-      return ['/index.html', '/index-cn.html'];
+      return ['/index.html'];
     }
     if (filePath.endsWith('/index.html')) {
-      return [filePath, filePath.replace(/\/index\.html$/, '-cn/index.html')];
+      return [filePath];
     }
-    if (filePath !== '/404.html' && filePath !== '/index-cn.html') {
-      return [filePath, filePath.replace(/\.html$/, '-cn.html')];
+    if (filePath !== '/404.html') {
+      return [filePath];
     }
     return filePath;
   },

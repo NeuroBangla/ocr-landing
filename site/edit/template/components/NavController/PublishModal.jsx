@@ -16,7 +16,6 @@ import ticker from 'rc-tween-one/lib/ticker';
 import store from 'store';
 
 import { saveJsZip } from '../saveJsZip';
-import { isZhCN } from '../../../../theme/template/utils';
 
 const { Item } = Form;
 const { TextArea } = Input;
@@ -227,7 +226,7 @@ class PublishModal extends React.Component {
   render() {
     const { templateData, location, onSave, changePublishState, ...props } = this.props;
     const { isLoad, explain } = this.state;
-    const locale = isZhCN(location.pathname) ? 'zh-CN' : 'en-US';
+    const locale = 'en-US';
     const page = templateData.data.page || {};
     const url = `${templateData.uid}.antdlanding.now.sh`;
     return (

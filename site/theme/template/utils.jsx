@@ -44,7 +44,8 @@ export function getMenuItems(moduleData, locale, themeConfig) {
   }).sort(sortFn);
 }
 export function isZhCN(pathname) {
-  return /-cn\/?$/.test(pathname);
+  // todo: cleanup remove
+  return false;
 }
 
 export function getLocalizedPathname(path, zhCN) {
