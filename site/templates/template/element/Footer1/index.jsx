@@ -37,7 +37,7 @@ class Footer extends React.Component {
           /* replace-end */
         >
           {
-            typeof title.children === 'string' && title.children.match(isImg) ? (
+            typeof title.children === 'string' && (title.children.match(isImg) || title.children.endsWith(".png")) ? (
               <img src={title.children} width="100%" alt="img" />
             ) : /* replace-start-value = title.children */React.createElement('span', { dangerouslySetInnerHTML: { __html: title.children } })
             /* replace-end-value */
@@ -58,6 +58,7 @@ class Footer extends React.Component {
     delete props.dataSource;
     delete props.isMobile;
     const childrenToRender = this.getLiChildren(dataSource.block.children);
+    console.log('childrenToRender', childrenToRender);
     return (
       <div {...props} {...dataSource.wrapper}>
         <OverPack
