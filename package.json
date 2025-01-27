@@ -78,7 +78,7 @@
   "scripts": {
     "start": "bisheng start -c ./site/bisheng.templates.config.js",
     "build-templates": "bisheng build -c ./site/bisheng.templates.config.js",
-    "build": "rm -rf _site && cross-env NODE_ENV=production concurrently \"npm run build-templates\" && mkdir -p _site/ocr-landing && find _site -maxdepth 1 -type f -exec mv {} _site/ocr-landing/ \\;"
+    "build": "rm -rf _site && cross-env NODE_ENV=production concurrently \"npm run build-templates\" && mkdir -p _site/ocr-landing && find _site -maxdepth 1 -type f -exec mv {} _site/ocr-landing/ \\; && cp assets/header-icon.png _site/ocr-landing/header-icon.png"
   },
   "sideEffects": [
     "dist/*",
