@@ -1,6 +1,3 @@
-import qrImage from '../../assets/qr.png';
-import iconImage from '../../assets/icon.png'
-
 export default {
   tuying: {
     template: [
@@ -23,7 +20,7 @@ export default {
             ],
           },
           logo: {
-            children: iconImage,
+            children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/icon.png',
             className: 'header3-logo jzjgnya1gmn-editor_css',
           },
         },
@@ -152,7 +149,7 @@ export default {
                 className: 'block',
                 title: {
                   className: 'logo jzl0qcpyjra-editor_css',
-                  children: iconImage,
+                  children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/icon.png',
                 },
                 childWrapper: {
                   className: 'slogan',
@@ -175,7 +172,7 @@ export default {
                     {
                       name: 'image~jzl0tcm4f1d',
                       className: '',
-                      children: qrImage
+                      children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/qr.png'
                     },
                     {
                       href: '#',

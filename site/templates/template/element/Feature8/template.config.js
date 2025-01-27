@@ -3,9 +3,6 @@ import component from './index';
 import less from '!raw-loader!./index.less';
 import templateStr from '!raw-loader!./index';
 
-import nextImage from '../../../../../assets/next.svg'
-import messageImage from '../../../../../assets/message.svg'
-
 export default {
   component,
   templateStr,
@@ -79,7 +76,7 @@ export default {
                 name: 'child0',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: nextImage,
+                  children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/next.svg',
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -87,7 +84,7 @@ export default {
                     {
                       name: 'image',
                       className: 'feature8-block-image',
-                      children: messageImage,
+                      children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
                     },
                     {
                       name: 'title',
@@ -109,7 +106,7 @@ export default {
                 name: 'child1',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: nextImage,
+                  children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/next.svg',
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -117,7 +114,7 @@ export default {
                     {
                       name: 'image',
                       className: 'feature8-block-image',
-                      children: messageImage,
+                      children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
                     },
                     {
                       name: 'title',
@@ -139,7 +136,7 @@ export default {
                 name: 'child2',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: nextImage,
+                  children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/next.svg',
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -147,7 +144,7 @@ export default {
                     {
                       name: 'image',
                       className: 'feature8-block-image',
-                      children: messageImage,
+                      children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
                     },
                     {
                       name: 'title',
@@ -169,7 +166,7 @@ export default {
                 name: 'child3',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: nextImage,
+                  children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/next.svg',
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -177,7 +174,7 @@ export default {
                     {
                       name: 'image',
                       className: 'feature8-block-image',
-                      children: messageImage,
+                      children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
                     },
                     {
                       name: 'title',
@@ -199,7 +196,7 @@ export default {
                 name: 'child4',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: nextImage,
+                  children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/next.svg',
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -207,7 +204,7 @@ export default {
                     {
                       name: 'image',
                       className: 'feature8-block-image',
-                      children: messageImage,
+                      children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
                     },
                     {
                       name: 'title',

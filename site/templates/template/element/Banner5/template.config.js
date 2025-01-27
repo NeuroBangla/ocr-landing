@@ -3,8 +3,6 @@ import component from './index';
 import less from '!raw-loader!./index.less';
 import templateStr from '!raw-loader!./index';
 
-import backgroundImage from '../../../../../assets/background.png'
-
 export default {
   component,
   templateStr,
@@ -49,7 +47,7 @@ export default {
     },
     image: {
       className: 'banner5-image',
-      children: backgroundImage,
+      children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/background.png',
     },
   },
 };

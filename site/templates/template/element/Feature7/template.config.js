@@ -3,8 +3,6 @@ import component from './index';
 import less from '!raw-loader!./index.less';
 import templateStr from '!raw-loader!./index';
 
-import messageImage from '../../../../../assets/message.svg'
-
 export default {
   component,
   templateStr,
@@ -49,7 +47,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
@@ -75,7 +73,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
@@ -101,7 +99,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
@@ -127,7 +125,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
@@ -153,7 +151,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
@@ -179,7 +177,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
@@ -205,7 +203,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
@@ -231,7 +229,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: messageImage,
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
               },
               {
                 name: 'title',
