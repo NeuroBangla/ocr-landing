@@ -1,3 +1,5 @@
+import qrImage from '../../assets/qr.png';
+
 export default {
   tuying: {
     template: [
@@ -174,8 +176,7 @@ export default {
                     {
                       name: 'image~jzl0tcm4f1d',
                       className: '',
-                      children:
-                        'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*NoENTI5uyn4AAAAAAAAAAABkARQnAQ',
+                      children: qrImage
                     },
                     {
                       href: '#',
