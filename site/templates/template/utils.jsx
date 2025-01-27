@@ -10,7 +10,7 @@ export const isImg = imgStr;
 export const getChildrenToRender = (item, i) => {
   let tag = item.name && item.name.indexOf('title') === 0 ? 'h1' : 'div';
   tag = item.href ? 'a' : tag;
-  let children = typeof item.children === 'string' && item.children.match(/^http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-./?%&=]*)?/)
+  let children = typeof item.children === 'string' && (item.children.match(/^http(s)?:\/\/([\w-]+\.)+[\w-]+(\/[\w-./?%&=]*)?/) || item.children.startsWith("data:image/"))
     ? React.createElement('img', { src: item.children, alt: 'img' })
     : React.createElement('span', { dangerouslySetInnerHTML: { __html: item.children } });
   if (item.name.indexOf('button') === 0) {
