@@ -39,7 +39,7 @@ export default {
             className: 'banner5-button',
             type: 'primary',
             children: 'Contact Us',
-            href:"mailto:maifeeulasad@gmail.com",
+            href:"mailto:maifeeulasad@gmail.com?subject=Neuro Bangla OCR | Query",
             target:"_blank"
           },
         },

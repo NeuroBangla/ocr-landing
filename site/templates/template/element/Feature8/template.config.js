@@ -39,7 +39,7 @@ export default {
           name: 'button',
           className: 'feature8-button',
           children: {
-            href: 'mailto:maifeeulasad@gmail.com',
+            href: 'mailto:maifeeulasad@gmail.com?subject=Neuro Bangla OCR | Query',
             children: 'Book a meeting now',
           },          
         },
