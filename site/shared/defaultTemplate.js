@@ -1,4 +1,5 @@
 import qrImage from '../../assets/qr.png';
+import iconImage from '../../assets/icon.png'
 
 export default {
   tuying: {
@@ -22,8 +23,7 @@ export default {
             ],
           },
           logo: {
-            children:
-              'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-J8NSLj9rbsAAAAAAAAAAABkARQnAQ',
+            children: iconImage,
             className: 'header3-logo jzjgnya1gmn-editor_css',
           },
         },
@@ -152,8 +152,7 @@ export default {
                 className: 'block',
                 title: {
                   className: 'logo jzl0qcpyjra-editor_css',
-                  children:
-                    'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*GzZ-QqkpH4AAAAAAAAAAAABkARQnAQ',
+                  children: iconImage,
                 },
                 childWrapper: {
                   className: 'slogan',
