@@ -3,6 +3,8 @@ import component from './index';
 import less from '!raw-loader!./index.less';
 import templateStr from '!raw-loader!./index';
 
+import backgroundImage from '../../../../../assets/background.png'
+
 export default {
   component,
   templateStr,
@@ -47,7 +49,7 @@ export default {
     },
     image: {
       className: 'banner5-image',
-      children: 'https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*-wAhRYnWQscAAAAAAAAAAABkARQnAQ',
+      children: backgroundImage,
     },
   },
 };

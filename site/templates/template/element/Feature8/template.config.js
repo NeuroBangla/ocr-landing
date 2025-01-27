@@ -3,6 +3,8 @@ import component from './index';
 import less from '!raw-loader!./index.less';
 import templateStr from '!raw-loader!./index';
 
+import nextImage from '../../../../../assets/next.svg'
+
 export default {
   component,
   templateStr,
@@ -76,7 +78,7 @@ export default {
                 name: 'child0',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+                  children: nextImage,
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -106,7 +108,7 @@ export default {
                 name: 'child1',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+                  children: nextImage,
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -136,7 +138,7 @@ export default {
                 name: 'child2',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+                  children: nextImage,
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -166,7 +168,7 @@ export default {
                 name: 'child3',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+                  children: nextImage,
                 },
                 children: {
                   className: 'feature8-block-child',
@@ -196,7 +198,7 @@ export default {
                 name: 'child4',
                 arrow: {
                   className: 'feature8-block-arrow',
-                  children: 'https://gw.alipayobjects.com/zos/basement_prod/167bee48-fbc0-436a-ba9e-c116b4044293.svg',
+                  children: nextImage,
                 },
                 children: {
                   className: 'feature8-block-child',

@@ -3,6 +3,8 @@ import component from './index';
 import less from '!raw-loader!./index.less';
 import templateStr from '!raw-loader!./index';
 
+import messageImage from '../../../../../assets/message.svg'
+
 export default {
   component,
   templateStr,
@@ -47,7 +49,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
@@ -73,7 +75,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
@@ -99,7 +101,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
@@ -125,7 +127,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
@@ -151,7 +153,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
@@ -177,7 +179,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
@@ -203,7 +205,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
@@ -229,7 +231,7 @@ export default {
               {
                 name: 'image',
                 className: 'feature7-block-image',
-                children: 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+                children: messageImage,
               },
               {
                 name: 'title',
