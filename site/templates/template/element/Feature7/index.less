@@ -1,6 +1,8 @@
 @import '../../../static/custom.less';
 @feature7: feature7;
 
+@zigzag-image: url('../../../../../assets/zigzag.png');
+
 .@{feature7} {
   &-wrapper {
     min-height: 564px;
@@ -39,7 +41,7 @@
       display: block;
       padding: 28px 24px;
       box-shadow: 0 2px 16px fade(#000, 8);
-      background-image: url('https://gw.alipayobjects.com/mdn/rms_ae7ad9/afts/img/A*fMOFSpRXMxsAAAAAAAAAAABkARQnAQ');
+      background-image: @zigzag-image;
       background-repeat: no-repeat;
       background-position: 100% 100%;
       transition: box-shadow @animate-duration @ease-in-out, transform @animate-duration @ease-in-out;
