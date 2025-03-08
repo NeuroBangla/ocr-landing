@@ -27,6 +27,10 @@ export const getChildrenToRender = (item, i) => {
   if (item.name.indexOf('link') === 0) {
     item['data-edit'] = 'linkA,text';
   }
+  // if item.name==="content-center" then it is a text and we will center it
+  if(item.name==="content-center"){
+    item.className = "text-center";
+  }
   return React.createElement(tag, { key: i.toString(), ...item }, children);
 };
 
