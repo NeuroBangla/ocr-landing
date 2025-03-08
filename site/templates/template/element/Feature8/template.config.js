@@ -92,7 +92,7 @@ export default {
                       children: 'Book a meeting',
                     },
                     {
-                      name: 'content',
+                      name: 'content-center',
                       className: 'feature8-block-content',
                       children: 'This is where we demo, share our thoughts, listen to your feedback and we both try to understand the limitations and possibilities of the project.',
                     },
@@ -122,7 +122,7 @@ export default {
                       children: 'Audit',
                     },
                     {
-                      name: 'content',
+                      name: 'content-center',
                       className: 'feature8-block-content',
                       children: 'We audit your infrastructure',
                     },
@@ -152,7 +152,7 @@ export default {
                       children: 'Test',
                     },
                     {
-                      name: 'content',
+                      name: 'content-center',
                       className: 'feature8-block-content',
                       children: 'You test the system and get satisfied, this is done in a private cloud environment',
                     },
@@ -182,7 +182,7 @@ export default {
                       children: 'Payment',
                     },
                     {
-                      name: 'content',
+                      name: 'content-center',
                       className: 'feature8-block-content',
                       children: 'You pay the invoice and we deliver the system on your premise within 2 weeks',
                     },
@@ -212,7 +212,7 @@ export default {
                       children: 'Support',
                     },
                     {
-                      name: 'content',
+                      name: 'content-center',
                       className: 'feature8-block-content',
                       children: '<center>We provide LTS (at least 4 years), in form of security update and periodical new features</center>',
                     },
