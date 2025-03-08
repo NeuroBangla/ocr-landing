@@ -180,7 +180,7 @@ export default {
                       children: '<a href="https://www.linkedin.com/company/neuro-bangla/" target="_blank">Explore our LinkedIn page</a>',
                       className: 'jzl0u1bko6-editor_css',
                     },
-                    {  href:"mailto:maifeeulasad@gmail.com?subject=Neuro Bangla OCR | Query", target:"_blank", name: 'link1', children: 'Contact Us' },
+                    {  href:"mailto:contact@neurobangla.com?subject=Neuro Bangla OCR | Query", target:"_blank", name: 'link1', children: 'Contact Us' },
                   ],
                 },
               },

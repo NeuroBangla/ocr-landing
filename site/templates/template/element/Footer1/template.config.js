@@ -84,13 +84,13 @@ export default {
               {
                 name: 'link0',
                 children: 'FAQ',
-                href:"mailto:maifeeulasad@gmail.com?subject=Neuro Bangla OCR | Query",
+                href:"mailto:contact@neurobangla.com?subject=Neuro Bangla OCR | Query",
                 target:"_blank"
               },
               {
                 name: 'link1',
                 children: 'Contact Us',
-                href:"mailto:maifeeulasad@gmail.com?subject=Neuro Bangla OCR | Query",
+                href:"mailto:contact@neurobangla.com?subject=Neuro Bangla OCR | Query",
                 target:"_blank"
               },
             ],
