@@ -57,7 +57,7 @@ export default {
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'Neuro Bangla OCR ensures enterprise-grade AI with complete control over your data.',
+                children: 'Neuro Bangla OCR provides enterprise-grade AI while ensuring your data remains fully under your control, meeting GDPR standards.',
               },
             ],
           },
@@ -78,12 +78,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: 'Fast Processing',
+                children: 'Fast & Secure Processing',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'Processes documents quickly without compromising quality.',
+                children: 'Efficiently processes documents while safeguarding data privacy and confidentiality.',
               },
             ],
           },
@@ -109,7 +109,7 @@ export default {
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'Reduces reliance on expensive cloud services for significant cost savings.',
+                children: 'Reduce cloud dependency and operational costs, while retaining control over sensitive information.',
               },
             ],
           },
@@ -130,12 +130,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: 'Energy Savings',
+                children: 'Energy-Efficient Operation',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'Operates sustainably, costing just 45 cents per 1,000 pages.',
+                children: 'Runs sustainably at just 45 cents per 1,000 pages, supporting eco-conscious data processing.',
               },
             ],
           },
@@ -156,12 +156,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: 'Scalable Solution',
+                children: 'Scalable & Compliant',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'Designed to grow seamlessly with businesses of all sizes.',
+                children: 'Built to scale with your business while upholding core privacy and compliance principles.',
               },
             ],
           },
@@ -182,12 +182,12 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: 'Privacy Focus',
+                children: 'Privacy by Design',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'Dedicated to protecting user privacy against data harvesting.',
+                children: 'Engineered with privacy-first architecture to safeguard user data against unauthorized access.',
               },
             ],
           },
@@ -213,7 +213,7 @@ export default {
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'A ready-to-deploy demo highlights its practical benefits.',
+                children: 'Access a working demo to evaluate the system\'s efficiency and data handling approach.',
               },
             ],
           },
@@ -234,17 +234,17 @@ export default {
               {
                 name: 'title',
                 className: 'feature7-block-title',
-                children: 'AI Value',
+                children: 'Trustworthy AI',
               },
               {
                 name: 'content',
                 className: 'feature7-block-content',
-                children: 'Combines efficiency, security, and innovation in enterprise AI solutions.',
+                children: 'Delivers reliable AI that respects privacy, promotes transparency, and complies with GDPR best practices.',
               },
             ],
           },
         },
-      ],
+      ],          
     },
   },
 };
