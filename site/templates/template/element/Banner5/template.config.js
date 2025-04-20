@@ -25,12 +25,12 @@ export default {
         {
           name: 'explain',
           className: 'banner5-explain',
-          children: 'Self hosted OCR for enterprise',
+          children: 'Self-Hosted Privacy-focused OCR for enterprise',
         },
         {
           name: 'content',
           className: 'banner5-content',
-          children: 'In a world where giants harvest your data, we stand for your privacy.',
+          children: 'Your data, your control. Experience OCR with uncompromised privacy.',
         },
         {
           name: 'button',
@@ -38,9 +38,9 @@ export default {
           children: {
             className: 'banner5-button',
             type: 'primary',
-            children: 'Contact Us',
-            href:"mailto:contact@neurobangla.com?subject=Neuro Bangla OCR | Query",
-            target:"_blank"
+            children: 'Learn More',
+            href: "mailto:contact@neurobangla.com?subject=Neuro Bangla OCR | Privacy Inquiry",
+            target: "_blank"
           },
         },
       ],
