@@ -244,6 +244,110 @@ export default {
             ],
           },
         },
+        {
+          md: 6,
+          xs: 24,
+          name: 'block8',
+          className: 'feature7-block',
+          children: {
+            className: 'feature7-block-group',
+            children: [
+              {
+                name: 'image',
+                className: 'feature7-block-image',
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
+              },
+              {
+                name: 'title',
+                className: 'feature7-block-title',
+                children: 'End-to-End Security',
+              },
+              {
+                name: 'content',
+                className: 'feature7-block-content',
+                children: 'Implements robust encryption and access controls to ensure data confidentiality and integrity throughout the processing lifecycle.',
+              },
+            ],
+          },
+        },
+        {
+          md: 6,
+          xs: 24,
+          name: 'block9',
+          className: 'feature7-block',
+          children: {
+            className: 'feature7-block-group',
+            children: [
+              {
+                name: 'image',
+                className: 'feature7-block-image',
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
+              },
+              {
+                name: 'title',
+                className: 'feature7-block-title',
+                children: 'Modern Tooling',
+              },
+              {
+                name: 'content',
+                className: 'feature7-block-content',
+                children: 'Leverages up-to-date open-source libraries and frameworks, ensuring security patches and privacy enhancements are always in place.',
+              },
+            ],
+          },
+        },
+        {
+          md: 6,
+          xs: 24,
+          name: 'block10',
+          className: 'feature7-block',
+          children: {
+            className: 'feature7-block-group',
+            children: [
+              {
+                name: 'image',
+                className: 'feature7-block-image',
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
+              },
+              {
+                name: 'title',
+                className: 'feature7-block-title',
+                children: 'Docker & Kubernetes',
+              },
+              {
+                name: 'content',
+                className: 'feature7-block-content',
+                children: 'Supports scalable deployments using Docker and Kubernetes while keeping data workflows isolated and compliant.',
+              },
+            ],
+          },
+        },
+        {
+          md: 6,
+          xs: 24,
+          name: 'block11',
+          className: 'feature7-block',
+          children: {
+            className: 'feature7-block-group',
+            children: [
+              {
+                name: 'image',
+                className: 'feature7-block-image',
+                children: 'https://raw.githubusercontent.com/NeuroBangla/ocr-landing/refs/heads/main/assets/message.svg',
+              },
+              {
+                name: 'title',
+                className: 'feature7-block-title',
+                children: 'Podman Compatibility',
+              },
+              {
+                name: 'content',
+                className: 'feature7-block-content',
+                children: 'Fully compatible with Podman for rootless, secure containerization—ideal for GDPR-aligned edge or local deployments.',
+              },
+            ],
+          },
+        }        
       ],          
     },
   },
