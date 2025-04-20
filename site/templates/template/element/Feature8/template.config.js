@@ -89,12 +89,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: 'Book a meeting',
+                      children: 'Schedule a Meeting',
                     },
                     {
                       name: 'content-center',
                       className: 'feature8-block-content',
-                      children: 'This is where we demo, share our thoughts, listen to your feedback and we both try to understand the limitations and possibilities of the project.',
+                      children: 'We showcase a live demo, gather your input, and collaboratively explore the project’s vision, potential, and scope.',
                     },
                   ],
                 },
@@ -119,12 +119,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: 'Audit',
+                      children: 'Infrastructure Assessment',
                     },
                     {
                       name: 'content-center',
                       className: 'feature8-block-content',
-                      children: 'We audit your infrastructure',
+                      children: 'We conduct a detailed audit of your infrastructure to ensure compatibility, performance, and compliance.',
                     },
                   ],
                 },
@@ -149,12 +149,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: 'Test',
+                      children: 'Private Testing',
                     },
                     {
                       name: 'content-center',
                       className: 'feature8-block-content',
-                      children: 'You test the system and get satisfied, this is done in a private cloud environment',
+                      children: 'You evaluate the system in a secure private cloud setup, ensuring it meets your expectations before going live.',
                     },
                   ],
                 },
@@ -179,12 +179,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: 'Payment',
+                      children: 'Finalize & Deploy',
                     },
                     {
                       name: 'content-center',
                       className: 'feature8-block-content',
-                      children: 'You pay the invoice and we deliver the system on your premise within 2 weeks',
+                      children: 'Upon payment, we complete deployment on your premises within two weeks—efficient, secure, and seamless.',
                     },
                   ],
                 },
@@ -209,12 +209,12 @@ export default {
                     {
                       name: 'title',
                       className: 'feature8-block-title',
-                      children: 'Support',
+                      children: 'Long-Term Support',
                     },
                     {
                       name: 'content-center',
                       className: 'feature8-block-content',
-                      children: '<center>We provide LTS (at least 4 years), in form of security update and periodical new features</center>',
+                      children: '<center>We offer long-term support (minimum 4 years), including security updates and feature enhancements on a regular basis.</center>',
                     },
                   ],
                 },
@@ -222,6 +222,7 @@ export default {
             ],
           },
         ],
+        
       },
     },
   },
