@@ -25,7 +25,7 @@ export default {
         {
           name: 'explain',
           className: 'banner5-explain',
-          children: 'Self-Hosted Privacy-focused OCR for enterprise',
+          children: 'Self-Hosted OCR for Enterprise',
         },
         {
           name: 'content',
