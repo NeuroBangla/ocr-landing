@@ -23,7 +23,7 @@ export default {
         {
           name: 'title',
           className: 'feature8-title-h1',
-          children: 'How to order',
+          children: 'How to integrate to your system?',
         },
         {
           name: 'content',
